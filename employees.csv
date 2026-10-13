@@ -1,0 +1,21 @@
+employee_id,name,department,salary,joining_date,email,status
+EMP1001,Rahul Sharma,Engineering,85000,15-06-2024,rahul@gmail.com,Active
+EMP1002,Priya Reddy,HR,65000,21-08-2023,priya@gmail.com,Active
+EMP1003,Arjun Kumar,Finance,72000,10-01-2024,arjun@gmail.com,Active
+EMP1004,Sneha Rao,Marketing,60000,05-11-2022,sneha@gmail.com,Inactive
+EMP1005,Vikram Singh,Engineering,90000,18-02-2025,vikram@gmail.com,Active
+EMP1006,Ananya Das,Sales,58000,12-09-2024,ananya@gmail.com,Active
+EMP1007,Rohit Verma,IT,78000,25-04-2023,rohit@gmail.com,Active
+EMP1008,Kavya Nair,HR,67000,06-01-2025,kavya@gmail.com,Active
+EMP1009,Manoj Kumar,Finance,74000,19-07-2022,manoj@gmail.com,Inactive
+EMP1010,Divya Reddy,Marketing,62000,30-03-2024,divya@gmail.com,Active
+EMP1011,Harish Babu,IT,82000,14-05-2025,harish@gmail.com,Active
+EMP1012,Pooja Sharma,Sales,59000,11-10-2023,pooja@gmail.com,Active
+EMP1013,Kiran Rao,Engineering,88000,02-12-2024,kiran@gmail.com,Active
+EMP1014,Meena Patel,Finance,71000,17-06-2023,meena@gmail.com,Active
+EMP1015,Aditya Singh,IT,80000,23-09-2022,aditya@gmail.com,Inactive
+EMP1016,Lakshmi Devi,HR,64000,08-05-2024,lakshmi@gmail.com,Active
+EMP1017,Sandeep Reddy,Sales,61000,21-03-2025,sandeep@gmail.com,Active
+EMP1018,Neha Gupta,Marketing,63000,14-12-2023,neha@gmail.com,Active
+EMP1019,Varun Kumar,Engineering,92000,27-08-2024,varun@gmail.com,Active
+EMP1020,Ishita Rao,IT,79000,03-06-2025,ishita@gmail.com,Active

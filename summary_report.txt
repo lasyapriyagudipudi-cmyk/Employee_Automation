@@ -1,0 +1,9 @@
+EMPLOYEE DATA AUTOMATION & REPORTING SYSTEM
+==================================================
+
+Total Employees: 20
+Active Employees: 17
+Inactive Employees: 3
+Average Salary: 72500.00
+New Joiners in 2026: 0
+Validation Errors: 0

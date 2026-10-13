@@ -1,0 +1,50 @@
+2026-09-13 20:52:00,230 - INFO - ----- Project execution started -----
+2026-09-13 20:52:00,232 - INFO - Employee data file read successfully.
+2026-09-13 20:52:00,232 - INFO - All required columns are present.
+2026-09-13 20:52:00,241 - INFO - No validation errors found.
+2026-09-13 20:52:00,252 - ERROR - Project execution failed: No module named 'openpyxl'
+Traceback (most recent call last):
+  File "D:\Main Storage Folder\Employee_Automation\employee_automation.py", line 340, in main
+    generate_reports(
+    ~~~~~~~~~~~~~~~~^
+        cleaned_df,
+        ^^^^^^^^^^^
+    ...<2 lines>...
+        error_df
+        ^^^^^^^^
+    )
+    ^
+  File "D:\Main Storage Folder\Employee_Automation\employee_automation.py", line 255, in generate_reports
+    output_df.to_excel(
+    ~~~~~~~~~~~~~~~~~~^
+        CLEANED_FILE,
+        ^^^^^^^^^^^^^
+        index=False
+        ^^^^^^^^^^^
+    )
+    ^
+  File "D:\Main Storage Folder\Python\Lib\site-packages\pandas\core\generic.py", line 2300, in to_excel
+    formatter.write(
+    ~~~~~~~~~~~~~~~^
+        excel_writer,
+        ^^^^^^^^^^^^^
+    ...<6 lines>...
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Main Storage Folder\Python\Lib\site-packages\pandas\io\formats\excel.py", line 1003, in write
+    writer = ExcelWriter(
+        writer,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "D:\Main Storage Folder\Python\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 58, in __init__
+    from openpyxl.workbook import Workbook
+ModuleNotFoundError: No module named 'openpyxl'
+2026-09-13 20:52:44,076 - INFO - ----- Project execution started -----
+2026-09-13 20:52:44,078 - INFO - Employee data file read successfully.
+2026-09-13 20:52:44,078 - INFO - All required columns are present.
+2026-09-13 20:52:44,086 - INFO - No validation errors found.
+2026-09-13 20:52:44,363 - INFO - All reports generated successfully.
+2026-09-13 20:52:44,363 - INFO - ----- Project execution completed successfully -----
